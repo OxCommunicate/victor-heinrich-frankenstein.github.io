@@ -2,7 +2,7 @@
 
 # Leave the homepage title empty to use the site title
 
-title: 'Victor Heinrich Frankenstein'
+title: ''
 summary: 'Academic profile of Dr Victor Frankenstein, natural philosopher and experimental physiologist.'
 date: 2026-07-26
 type: landing
