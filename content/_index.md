@@ -61,6 +61,7 @@ Dr Victor Frankenstein is a Geneva-based natural philosopher whose research expl
     - Laboratory security and noise reduction
     
     His research programme aims to develop new methods for restoring function to biological systems previously considered beyond recovery.
+    
     design:
       columns: '1'
   - block: collection
