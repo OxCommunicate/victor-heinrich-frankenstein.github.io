@@ -50,7 +50,7 @@ Dr Victor Frankenstein is a Geneva-based natural philosopher whose research expl
     
     His work has attracted attention for its originality, technical ambition, and unusually strict confidentiality procedures.
     
-    ### Research interests
+    **Research interests**
     
     - Bioelectric signalling and galvanic response
     - Regenerative physiology
