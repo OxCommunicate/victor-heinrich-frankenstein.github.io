@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-summary: ''
+title: 'Victor Heinrich Frankenstein'
+summary: 'Academic profile of Dr Victor Frankenstein, natural philosopher and experimental physiologist.'
 date: 2022-10-24
 type: landing
 
@@ -12,9 +12,9 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      # text: Download CV
+      # url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -35,14 +35,32 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: '⚡ Research'
+      subtitle: 'Natural philosophy at the boundary of life and non-life'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+Dr Victor Frankenstein is a Geneva-based natural philosopher whose research explores the boundary between life and non-life.
+    
+        His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
+    
+    **Can damaged biological systems be restored to full and independent function?**
+    
+    Victor studied natural philosophy at the University of Ingolstadt, where he developed an interest in the physical processes associated with life, decay, and cellular activity.
+    
+    His current research is conducted through a private laboratory programme designed to support ambitious experiments requiring unusual equipment, long working hours, and minimal interruption.
+    
+    His work has attracted attention for its originality, technical ambition, and unusually strict confidentiality procedures.
+    
+    ### Research interests
+    
+    - Bioelectric signalling and galvanic response
+    - Regenerative physiology
+    - Restoration of damaged biological tissue
+    - Experimental anatomy
+    - The relationship between consciousness and physical form
+    - Scientific ambition, responsibility, and unintended consequences
+    - Laboratory security and noise reduction
+    
+    His research programme aims to develop new methods for restoring function to biological systems previously considered beyond recovery.
     design:
       columns: '1'
   - block: collection
