@@ -33,16 +33,17 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
   - block: markdown
     content:
       title: '⚡ Research'
       subtitle: 'Natural philosophy at the boundary of life and non-life'
       text: |-
-
         Dr Victor Frankenstein is a Geneva-based natural philosopher whose research explores the boundary between life and non-life.
 
 		His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
-    **Can damaged biological systems be restored to full and independent function?**
+
+		**Can damaged biological systems be restored to full and independent function?**
     
         Victor studied natural philosophy at the University of Ingolstadt, where he developed an interest in the physical processes associated with life, decay, and cellular activity.
     
@@ -50,7 +51,7 @@ sections:
 
         His work has attracted attention for its originality, technical ambition, and unusually strict confidentiality procedures.
     
-        design:
+    design:
       columns: '1'
   - block: collection
     id: papers
