@@ -41,9 +41,7 @@ sections:
       text: |-
         Dr Victor Frankenstein is a Geneva-based natural philosopher whose research explores the boundary between life and non-life.
 
-		His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
-
-		**Can damaged biological systems be restored to full and independent function?**
+		His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question: **Can damaged biological systems be restored to full and independent function?**
     
         Victor studied natural philosophy at the University of Ingolstadt, where he developed an interest in the physical processes associated with life, decay, and cellular activity.
     
