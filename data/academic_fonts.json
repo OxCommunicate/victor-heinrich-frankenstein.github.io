@@ -1,0 +1,26 @@
+[
+  {
+    "family": "Lora",
+    "file": "fonts/academic/Lora-normal.woff2",
+    "weight": "500 700",
+    "style": "normal"
+  },
+  {
+    "family": "Source Serif 4",
+    "file": "fonts/academic/SourceSerif4-normal.woff2",
+    "weight": "400 700",
+    "style": "normal"
+  },
+  {
+    "family": "Source Serif 4",
+    "file": "fonts/academic/SourceSerif4-italic.woff2",
+    "weight": "400",
+    "style": "italic"
+  },
+  {
+    "family": "Source Code Pro",
+    "file": "fonts/academic/SourceCodePro-normal.woff2",
+    "weight": "400 600",
+    "style": "normal"
+  }
+]

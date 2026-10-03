@@ -1,18 +1,82 @@
 name:
-  display: Dr Victor Frankenstein
-  given: Victor
+  display: Dr Victor Heinrich Frankenstein
+  given: Victor Heinrich
   family: Frankenstein
+role: Postdoctoral Research Fellow in Bioelectricity and Experimental Physiology
+bio: 'Dr Victor Frankenstein is a Geneva-based early career researcher exploring the boundary between life and non-life. His work combines experimental chemistry, comparative anatomy, electrical stimulation and regenerative medicine in pursuit of one modest question: can damaged biological systems be restored to full and independent function? He completed his PhD in 2023 and is now a Postdoctoral Research Fellow at the Geneva Institute for Experimental Science.'
+interests:
+- Bioelectric signalling and galvanic response
+- Regenerative physiology
+- Restoration of damaged biological tissue
+- Experimental anatomy
+- The relationship between consciousness and physical form
+- Scientific ambition, responsibility, and unintended consequences
+- Laboratory security and noise reduction
+work:
+- position: Postdoctoral Research Fellow
+  company_name: Geneva Institute for Experimental Science
+  date_start: '2023-09-01'
+  date_end: ''
+  summary: 'Investigates bioelectric coordination and functional recovery; develops an independent research strand within his fellowship; contributes practical teaching and research-ethics seminars.
 
-role: Independent Researcher in Natural Philosophy
 
-organizations:
-  - name: Geneva Institute for Experimental Science
-    url: "gies.ch"
+    Geneva, Switzerland'
+- position: Doctoral Researcher
+  company_name: University of Ingolstadt
+  date_start: '2019-10-01'
+  date_end: '2023-08-31'
+  summary: 'Investigated electrical coordination in experimental tissue systems under the supervision of Professor M. Waldman. Developed the foundations of his current regeneration research.
 
-bio: |
-  Dr Victor Frankenstein is an independent scholar working at the intersection
-  of natural philosophy, bioelectricity, anatomy, and regenerative medicine.
-  His research investigates the mechanisms by which inert biological systems
-  may be restored to functional activity. He is committed to responsible
-  innovation, rigorous confidentiality, and acquiring all anatomical materials
-  through entirely reputable channels.
+
+    Ingolstadt, Germany'
+- position: Graduate Teaching Assistant, concurrent with PhD
+  company_name: University of Ingolstadt
+  date_start: '2021-10-01'
+  date_end: '2023-06-30'
+  summary: 'Supported experimental physiology practicals and small-group teaching. Helped students distinguish an interesting observation from a supported conclusion.
+
+
+    Ingolstadt, Germany'
+education:
+- area: PhD in Experimental Biology
+  institution: University of Ingolstadt
+  date_end: '2023-07-15'
+  summary: 'Thesis: “Electrical Coordination and Functional Recovery in Experimental Tissue Systems.” Supervisor: Professor M. Waldman.'
+  year: '2023'
+- area: MSc in Natural Philosophy
+  institution: University of Ingolstadt
+  date_end: '2019-07-01'
+  summary: 'Focus: experimental anatomy, electrophysiology and scientific method.'
+  year: '2019'
+- area: BSc in Biological Sciences
+  institution: Geneva College of Natural Sciences
+  date_end: '2017-07-01'
+  summary: 'Focus: anatomy, physiology and the history of experimental science.'
+  year: '2017'
+skills:
+- name: Experimental design
+- name: Electrophysiology
+- name: Computational modelling
+- name: Scientific writing
+- name: Small-group teaching
+- name: Ethics and reproducibility
+languages:
+- name: German
+  description: native
+- name: French
+  description: fluent
+- name: English
+  description: fluent
+- name: Latin
+  description: reading knowledge
+awards:
+- title: Early Career Research Practice Commendation
+  date: '2025-11-18'
+  awarder: Geneva Institute for Experimental Science
+  summary: Recognised Victor’s contribution to explicit stopping criteria and post-experiment duty-of-care reviews. Victor initially described this as “an unexpectedly useful constraint”.
+affiliations:
+- name: Geneva Institute for Experimental Science
+location: Geneva, Switzerland
+status:
+  text: Exploring the boundary between life and non-life, one carefully documented experiment at a time.
+is_owner: true

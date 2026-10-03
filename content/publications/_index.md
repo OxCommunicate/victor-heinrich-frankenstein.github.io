@@ -1,12 +1,6 @@
 ---
 title: Publications
-cms_exclude: true
-
-# View.
 view: citation
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---
+
+Selected fictional publications from Victor Frankenstein’s doctoral and postdoctoral research. These records demonstrate publication lists, abstracts, project associations and downloadable citations. They are showcase entries, not real scholarly outputs.

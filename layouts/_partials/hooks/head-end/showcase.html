@@ -1,0 +1,14 @@
+{{ if .IsHome }}
+<style>
+  #showcase-notice { padding: 2rem 1rem; scroll-margin-top: 6rem; }
+  #showcase-notice .showcase-notice-box {
+    border: 1px solid #d1d9e0; border-radius: 0.5rem;
+    padding: clamp(1.25rem, 4vw, 2.5rem); max-width: 72rem;
+    background: #f6f8fa; color: #24292f; margin: 0 auto;
+  }
+  #showcase-notice h2 { margin: 0 0 1rem; font-size: clamp(1.25rem, 3vw, 1.5rem); font-weight: 700; line-height: 1.25; }
+  #showcase-notice p { color: inherit; font-size: 1rem; line-height: 1.7; }
+  #bio, #research, #papers, #talks, #news { scroll-margin-top: 6rem; }
+  #talks span.hidden.sm\:inline.whitespace-nowrap { display: inline; white-space: normal; }
+</style>
+{{ end }}

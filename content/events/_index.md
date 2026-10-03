@@ -1,13 +1,6 @@
 ---
-title: Recent & Upcoming Talks
-cms_exclude: true
-#url: talk
-
-# View
+title: Recent and upcoming talks
 view: card
-
-# Optional cover image (relative to `assets/media/` folder).
-image:
-  caption: ''
-  filename: ''
 ---
+
+Selected fictional early career seminars and research talks.
