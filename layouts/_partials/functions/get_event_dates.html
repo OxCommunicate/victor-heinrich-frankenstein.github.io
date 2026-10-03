@@ -1,0 +1,12 @@
+{{/* Showcase event labels are derived at build time, never fixed in content. */}}
+{{ $start := time.AsTime (.Params.event_start | default .Date) }}
+{{ $end := time.AsTime (.Params.event_end | default .Params.event_start | default .Date) }}
+{{ $label := "Past event" }}
+{{ if gt $start now }}
+  {{ $label = "Upcoming event" }}
+{{ else if gt $end now }}
+  {{ $label = "In progress" }}
+{{ end }}
+{{ $date := $start.Format "2 January 2006" }}
+{{ $hours := printf "%s–%s" ($start.Format "15:04") ($end.Format "15:04") }}
+{{ return (printf "%s · %s · %s (%s)" $label $date $hours (.Params.event_timezone | default ($start.Format "Z07:00"))) }}

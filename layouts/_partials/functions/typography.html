@@ -1,0 +1,115 @@
+{{/* Local Academic font subsets. Keep variable generation aligned with the pinned HugoBlox typography partial. */}}
+{{ $typo := .typography }}
+{{ $pack_style := $typo.style | default "sans" }}
+{{ $families := $typo.families }}
+{{ $weights := $typo.weights }}
+{{ $variable := $typo.variable | default dict }}
+{{ $leading := $typo.leading }}
+{{ $tracking := $typo.tracking }}
+{{ $sizes := $typo.sizes }}
+
+{{/* System font stacks */}}
+{{ $system_sans := "ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'" }}
+{{ $system_serif := "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif" }}
+{{ $system_mono := "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}
+
+{{/* Map font names to CSS values and collect Google Font / bundled font families */}}
+{{ $resolve_family := dict }}
+{{ $roles := slice "heading" "body" "code" "nav" }}
+{{ range $role := $roles }}
+  {{ $name := index $families $role }}
+  {{ if not $name }}
+    {{ continue }}
+  {{ end }}
+  {{ $css := "" }}
+  {{ if eq $name "system-sans" }}
+    {{ $css = $system_sans }}
+  {{ else if eq $name "system-serif" }}
+    {{ $css = $system_serif }}
+  {{ else if eq $name "system-mono" }}
+    {{ $css = $system_mono }}
+  {{ else }}
+    {{/* Build CSS font-family value with appropriate generic fallback */}}
+    {{ if eq $role "code" }}
+      {{ $css = printf "'%s', %s" $name $system_mono }}
+    {{ else if eq $pack_style "serif" }}
+      {{ $css = printf "'%s', %s" $name $system_serif }}
+    {{ else }}
+      {{ $css = printf "'%s', %s" $name $system_sans }}
+    {{ end }}
+
+  {{ end }}
+  {{ $resolve_family = merge $resolve_family (dict $role (dict "css" $css "name" $name)) }}
+{{ end }}
+
+{{ range hugo.Data.academic_fonts }}
+  {{ $font := resources.Get .file }}
+  {{ if not $font }}{{ errorf "Missing local font: %s" .file }}{{ end }}
+<style>
+@font-face {
+  font-family: '{{ .family }}';
+  src: url('{{ $font.RelPermalink }}') format('woff2');
+  font-weight: {{ .weight }};
+  font-style: {{ .style }};
+  font-display: swap;
+}
+</style>
+{{ end }}
+
+{{/* Font size vars */}}
+{{ $font_size_base := $sizes.base | default "1rem" }}
+{{ $font_size_sm := $sizes.sm | default "0.875rem" }}
+{{ $font_size_lg := $sizes.lg | default "1.125rem" }}
+
+{{/* Resolve CSS font-family values */}}
+{{ $heading_css := $system_sans }}
+{{ with index $resolve_family "heading" }}{{ $heading_css = .css }}{{ end }}
+{{ $body_css := $system_sans }}
+{{ with index $resolve_family "body" }}{{ $body_css = .css }}{{ end }}
+{{ $code_css := $system_mono }}
+{{ with index $resolve_family "code" }}{{ $code_css = .css }}{{ end }}
+{{ $nav_css := $heading_css }}
+{{ with index $resolve_family "nav" }}{{ if .css }}{{ $nav_css = .css }}{{ end }}{{ end }}
+
+{{/* Get primary weight for each role (first in array) */}}
+{{ $heading_weight := 700 }}
+{{ with $weights.heading }}{{ $heading_weight = index . 0 }}{{ end }}
+{{ $body_weight := 400 }}
+{{ with $weights.body }}{{ $body_weight = index . 0 }}{{ end }}
+
+{{/* Bold body weight: second value in array, or primary + 200 (capped at 900) */}}
+{{ $body_weight_bold := math.Min 900 (add $body_weight 200) }}
+{{ with $weights.body }}{{ if ge (len .) 2 }}{{ $body_weight_bold = index . 1 }}{{ end }}{{ end }}
+
+<style>
+  :root {
+    /* Typography — Font Families */
+    --hb-font-heading: {{ $heading_css | safeCSS }};
+    --hb-font-body: {{ $body_css | safeCSS }};
+    --hb-font-code: {{ $code_css | safeCSS }};
+    --hb-font-nav: {{ $nav_css | safeCSS }};
+
+    /* Typography — Font Weights */
+    --hb-font-weight-heading: {{ $heading_weight }};
+    --hb-font-weight-body: {{ $body_weight }};
+    --hb-font-weight-body-bold: {{ $body_weight_bold }};
+
+    /* Typography — Line Heights */
+    --hb-font-leading-heading: {{ $leading.heading }};
+    --hb-font-leading-body: {{ $leading.body }};
+    --hb-font-leading-code: {{ $leading.code }};
+
+    /* Typography — Letter Spacing */
+    --hb-font-tracking-heading: {{ $tracking.heading | safeCSS }};
+    --hb-font-tracking-body: {{ $tracking.body | safeCSS }};
+    --hb-font-tracking-caps: {{ $tracking.caps | safeCSS }};
+
+    /* Typography — Font Sizes */
+    --hb-font-size-base: {{ $font_size_base | safeCSS }};
+    --hb-font-size-sm: {{ $font_size_sm | safeCSS }};
+    --hb-font-size-lg: {{ $font_size_lg | safeCSS }};
+
+    /* Typography — Font Family Alias (Tailwind v4 compat) */
+    --hb-font-family-sans: {{ $body_css | safeCSS }};
+  }
+</style>
