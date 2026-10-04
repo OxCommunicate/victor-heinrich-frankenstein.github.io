@@ -21,7 +21,7 @@ sections:
       Alongside his research, Victor contributes to practical teaching and postgraduate discussions on experimental design and research responsibility. He welcomes conversations with researchers working on bioelectricity, regenerative physiology and the difficult business of deciding whether an exciting result actually means what one hopes it means.
 
 
-      He is building an independent research profile. He anticipates that soon the world will tremble at the sublime majesty of his intellect and hise philosophical courage.
+      He is building an independent research profile. He anticipates that soon the world will tremble at the sublime majesty of his intellect and philosophical courage.
 
 
       ### Research conversations and showcase enquiries
@@ -33,10 +33,7 @@ sections:
       **Teaching enquiries:** Victor contributes to practical teaching and postgraduate seminars. No student placement, enrolment or recruitment process operates through this website; please contact Victor in person through carrier pigeon.
 
 
-      **Showcase enquiries:** This site was created by OxCommunicate to demonstrate free-hosted static academic websites using HugoBlox and GitHub.
-
-
-      ### Fictional availability
+      ### Availability
 
 
       Victor is interested in academic seminars, interdisciplinary research discussions, conversations about experimental methods, and talks on scientific ambition and research responsibility. Media interviews remain subject to prior approval of all questions.
@@ -48,7 +45,6 @@ sections:
       Messages received during thunderstorms may be answered with unusual speed.
 
 
-      *Victor Frankenstein, pictured before the laboratory adopted a more conventional lighting policy.*'
     headings:
       about: Biography
       education: Education
@@ -76,7 +72,7 @@ sections:
       The central question is whether damaged biological systems could be restored to full and independent function. The associated questions—what counts as recovery, who bears responsibility, and whether the laboratory should have better soundproofing—prove almost as persistent.
 
 
-      The projects below show an active postdoctoral programme alongside a completed doctoral project. All are fictional showcase content.'
+      The projects below show an active postdoctoral programme alongside a completed doctoral project.'
   design:
     columns: '1'
   id: research
