@@ -6,7 +6,8 @@ sections:
 - block: resume-biography-3
   content:
     username: me
-    text: 'Dr Victor Frankenstein is a Geneva-based natural philosopher and early career researcher whose research explores the boundary between life and non-life. His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
+    text: |
+      Dr Victor Frankenstein is a Geneva-based natural philosopher and early career researcher whose research explores the boundary between life and non-life. His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
 
 
       **Can damaged biological systems be restored to full and independent function?**
@@ -49,7 +50,7 @@ sections:
       about: Biography
       education: Education
       interests: Research interests
-  design:
+    design:
     background:
       gradient_mesh:
         enable: false
