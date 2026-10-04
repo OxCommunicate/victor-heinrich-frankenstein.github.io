@@ -19,6 +19,12 @@ tags:
 - Experimental anatomy
 summary: An experimental study of electrical stimulation and coordinated muscular response in large biological specimens.
 abstract: This fictional study examines the interpretation of galvanic responses in complex anatomical systems. It distinguishes isolated muscular activity from coordinated behaviour and sustained function, asking how an investigator might avoid mistaking a dramatic response for a defensible regenerative outcome. The discussion emphasises appropriate controls, longitudinal observation and transparent reporting of ambiguous results. The work provides a narrative foundation for the later whole-system regeneration project. Its principal methodological lesson is that movement can be interesting without being recovery, and that enthusiasm should never be the most sensitive instrument in the room.
+image:
+  filename: featured.jpg
+  alt_text: Glass laboratory vessels glowing with green light.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 Fictional showcase publication; not a real scholarly output.

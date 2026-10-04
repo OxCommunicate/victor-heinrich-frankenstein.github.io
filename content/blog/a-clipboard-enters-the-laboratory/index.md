@@ -9,6 +9,12 @@ tags:
 summary: A new paper asks how scientific independence can coexist with meaningful oversight.
 draft: false
 featured: false
+image:
+  filename: featured.jpg
+  alt_text: Clipboard and papers beside a brazier in a laboratory.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 My new fictional paper, “Responsible Innovation in Private Laboratories”, considers a question I initially hoped could be settled by locking the door: what does responsible independence actually require?

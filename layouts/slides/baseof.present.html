@@ -47,6 +47,10 @@
   <link rel="canonical" href="{{ $landing_url }}">
   <meta name="robots" content="noindex, nofollow">
 
+  {{ $icon := partial "functions/get_site_icon.html" 32 }}
+  {{ with $icon.resource }}<link rel="icon" type="image/png" href="{{ .RelPermalink }}">{{ end }}
+  {{ $touch := partial "functions/get_site_icon.html" 180 }}
+  {{ with $touch.resource }}<link rel="apple-touch-icon" href="{{ .RelPermalink }}">{{ end }}
   <title>{{ .Title }} | {{ site.Params.hugoblox.identity.name | default site.Title }}</title>
 
   {{/* Load Reveal CSS */}}

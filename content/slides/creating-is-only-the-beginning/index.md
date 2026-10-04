@@ -6,9 +6,17 @@ authors:
 - me
 slides:
   theme: white
+image:
+  filename: featured.png
+  alt_text: Sunset over a lake and mountain town.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 ## Creating Is Only the Beginning
+
+{{< slide-cover >}}
 
 Victor Heinrich Frankenstein. Geneva Early Career Research Forum. 17 May 2026. *Fictional presentation for the OxCommunicate website showcase.*
 

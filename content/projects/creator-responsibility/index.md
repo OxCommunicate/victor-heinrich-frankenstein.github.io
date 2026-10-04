@@ -8,6 +8,12 @@ tags:
 - Research ethics
 - Accountability
 - Duty of care
+image:
+  filename: featured.jpg
+  alt_text: A lone figure on sea ice beneath storm clouds.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 **Status:** Ongoing postdoctoral project

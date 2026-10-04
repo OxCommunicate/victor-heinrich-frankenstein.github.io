@@ -19,6 +19,12 @@ tags:
 - Duty of care
 summary: A reflection on scientific independence, research oversight, and the importance of conducting potentially transformative work without unnecessary administrative delay.
 abstract: This fictional article examines the tension between scientific independence and research oversight in private laboratories. It begins with a defence of ambitious investigation and a suspicion of forms submitted in triplicate, then considers the obligations that remain when an intervention succeeds or produces an unexpected outcome. The discussion proposes explicit monitoring, stopping criteria and post-experiment duty-of-care reviews. Its central conclusion is that avoiding unnecessary administrative delay should not become a euphemism for avoiding accountability. The author concedes that a clipboard can occasionally be an instrument of progress.
+image:
+  filename: featured.jpg
+  alt_text: Candlelit laboratory with notebooks and tall windows.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 Fictional showcase publication; not a real scholarly output.

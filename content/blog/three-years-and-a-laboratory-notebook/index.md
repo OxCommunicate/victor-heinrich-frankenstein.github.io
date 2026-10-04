@@ -9,6 +9,12 @@ tags:
 summary: Three years into his postdoctoral fellowship, Victor reflects on building a research profile.
 draft: false
 featured: false
+image:
+  filename: featured.jpg
+  alt_text: Open laboratory notebooks beside a candle.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 This month marks three years since I joined the Geneva Institute for Experimental Science as a Postdoctoral Research Fellow. My research question remains modest in wording and somewhat less modest in implication: can damaged biological systems be restored to full and independent function?

@@ -9,6 +9,12 @@ tags:
 summary: Controlled conditions rarely make the best theatre, but they make better methods sections.
 draft: false
 featured: false
+image:
+  filename: featured.png
+  alt_text: Lightning striking a steep laboratory roof.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 There is something undeniably appealing about an experiment conducted under a storm-darkened sky. Unfortunately, appeal is not a unit of measurement.
