@@ -1,21 +1,12 @@
 ---
 title: Dr Victor Heinrich Frankenstein
-summary: A fictional early career researcher website exploring bioelectricity, regenerative systems and responsible innovation, created by OxCommunicate to showcase HugoBlox and GitHub-hosted websites.
+summary: An early career researcher website exploring bioelectricity, regenerative systems and responsible innovation, created by OxCommunicate to showcase HugoBlox and GitHub-hosted websites.
 type: landing
 sections:
 - block: resume-biography-3
   content:
     username: me
-    text: 'Natural philosophy, bioelectricity, and experimental physiology.
-
-
-      Geneva, Switzerland
-
-
-      Exploring the boundary between life and non-life, one carefully documented experiment at a time.
-
-
-      Dr Victor Frankenstein is a Geneva-based natural philosopher and early career researcher whose research explores the boundary between life and non-life. His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
+    text: 'Dr Victor Frankenstein is a Geneva-based natural philosopher and early career researcher whose research explores the boundary between life and non-life. His work combines experimental chemistry, comparative anatomy, electrical stimulation, and regenerative medicine in pursuit of one modest question:
 
 
       **Can damaged biological systems be restored to full and independent function?**
@@ -30,19 +21,7 @@ sections:
       Alongside his research, Victor contributes to practical teaching and postgraduate discussions on experimental design and research responsibility. He welcomes conversations with researchers working on bioelectricity, regenerative physiology and the difficult business of deciding whether an exciting result actually means what one hopes it means.
 
 
-      He is building an independent research profile. The laboratory soundproofing remains a work in progress.
-
-
-      ### Satirical professional statement
-
-
-      Victor is committed to the ethical advancement of science and strongly rejects sensational descriptions of his work.
-
-
-      Terms such as “forbidden experiment,” “unnatural creation,” and “grave-robbing” are misleading, historically loaded, and inconsistent with the laboratory’s preferred terminology.
-
-
-      The phrase **“responsibly sourced anatomical research materials”** should be used in all professional correspondence.
+      He is building an independent research profile. He anticipates that soon the world will tremble at the sublime majesty of his intellect and hise philosophical courage.
 
 
       ### Research conversations and showcase enquiries
@@ -51,10 +30,10 @@ sections:
       **Research conversations:** Victor welcomes academic discussions about bioelectricity, regenerative physiology, experimental design and research responsibility. He is particularly interested in exchanging ideas with other early career researchers.
 
 
-      **Teaching enquiries:** Victor contributes to practical teaching and postgraduate seminars. The materials on this site are fictional demonstrations; no student placement, enrolment or recruitment process operates through this website.
+      **Teaching enquiries:** Victor contributes to practical teaching and postgraduate seminars. No student placement, enrolment or recruitment process operates through this website; please contact Victor in person through carrier pigeon.
 
 
-      **Showcase enquiries:** This fictional site was created by OxCommunicate to demonstrate free-hosted static academic websites using HugoBlox and GitHub, particularly for Early Career Researchers.
+      **Showcase enquiries:** This site was created by OxCommunicate to demonstrate free-hosted static academic websites using HugoBlox and GitHub.
 
 
       ### Fictional availability
@@ -147,7 +126,7 @@ sections:
   id: news
 - block: showcase-notice
   content:
-    text: This webpage, created by OxCommunicate, is intended purely as a showcase for creating free-hosted static academic websites using HugoBlox and GitHub, particularly for Early Career Researchers. It is not Victor Frankenstein's real academic website. Victor is presented here as a fictional early career researcher in natural philosophy, bioelectricity, and experimental physiology.
+    text: This webpage, created by OxCommunicate, is intended purely as showcase for creating free-hosted static academic websites using HugoBlox and Github. It is not Victor Frankenstein's real academic website. Victor left academia in 2018 and now runs a biomedical AI startup based in Palo Alto, California.
     title: This is not a real academic website
   design:
     columns: '1'
