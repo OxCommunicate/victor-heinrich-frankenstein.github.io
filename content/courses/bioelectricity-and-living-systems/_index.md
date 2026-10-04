@@ -12,6 +12,12 @@ content_meta:
   content_type: Course
   prerequisites:
   - Introductory physiology and basic quantitative methods
+image:
+  filename: featured.png
+  alt_text: Green-lit human skeleton illustrating bioelectric signalling.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 **Code:** BELS401

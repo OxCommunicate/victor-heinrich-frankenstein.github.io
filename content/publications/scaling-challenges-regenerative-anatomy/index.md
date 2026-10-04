@@ -17,6 +17,12 @@ tags:
 - Laboratory practice
 summary: A practical discussion of why larger experimental subjects may offer certain technical advantages, particularly where fine motor work proves inconvenient.
 abstract: This fictional conference paper considers how scale changes the design and interpretation of regenerative anatomy research. Larger anatomical systems may make some manipulations easier to observe, while introducing difficulties in coordination, materials preservation and meaningful outcome assessment. The paper argues that convenience for the investigator is not itself a biological justification. It discusses controlled comparisons, reproducible records and the need to report limitations clearly. The accompanying laboratory note observes that “easier to assemble” and “easier to accommodate” are regrettably different properties. No practical anatomical intervention instructions are supplied.
+image:
+  filename: featured.png
+  alt_text: Outstretched hand beside a lit candle.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 Fictional showcase publication; not a real scholarly output.

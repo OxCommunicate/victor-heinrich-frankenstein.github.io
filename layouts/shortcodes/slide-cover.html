@@ -1,0 +1,2 @@
+{{ $image := partial "functions/get_featured_image.html" .Page }}
+{{ with $image }}{{ $cover := .Resize "720x webp" }}<img src="{{ $cover.RelPermalink }}" width="{{ $cover.Width }}" height="{{ $cover.Height }}" alt="{{ $.Page.Params.image.alt_text }}" style="max-width: 65%; max-height: 35vh; width: auto; height: auto; object-fit: contain;">{{ end }}

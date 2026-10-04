@@ -8,6 +8,12 @@ tags:
 - Reproducibility
 - Protocols
 - Experimental design
+image:
+  filename: featured.png
+  alt_text: Weather vane on a roof beneath storm clouds.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 **Status:** Completed academic project

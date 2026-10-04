@@ -12,6 +12,12 @@ content_meta:
   content_type: Course
   prerequisites:
   - None
+image:
+  filename: featured.png
+  alt_text: Researchers gathered around a table beside a mountain lake.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 **Code:** REAB502

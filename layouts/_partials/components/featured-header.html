@@ -1,0 +1,10 @@
+{{/* Proportion-preserving featured images for layouts without a native header. */}}
+{{ $params := partial "functions/get_page_image_params.html" . }}
+{{ $image := partial "functions/get_featured_image.html" . }}
+{{ if and $image (not $params.preview_only) }}
+{{ $fitted := $image.Fit "720x2500" }}
+{{ $responsive := partial "functions/process_responsive_image.html" (dict "image" $fitted "mode" "responsive" "sizes" (slice 320 480 640 720)) }}
+<figure class="article-header featured-image-wrapper" style="max-width: {{ $fitted.Width }}px; margin: 1.5rem auto;">
+<img class="featured-image" src="{{ $responsive.fallback.RelPermalink }}" srcset="{{ $responsive.srcset }}" sizes="(max-width: 720px) 100vw, 720px" width="{{ $fitted.Width }}" height="{{ $fitted.Height }}" alt="{{ $params.alt_text }}" data-pagefind-meta="image[src]" style="display: block; width: 100%; height: auto;" fetchpriority="high">
+</figure>
+{{ end }}

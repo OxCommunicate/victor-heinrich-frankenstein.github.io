@@ -13,6 +13,12 @@ tags:
 - Experimental design
 summary: A practical case for controlled conditions, transparent methods and less weather-dependent science.
 event_timezone: Europe/Berlin
+image:
+  filename: featured.png
+  alt_text: Open window overlooking a sunlit Alpine lake.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 This fictional seminar presents the Stormproof Science programme and its approach to laboratory records, instrument checks and failed replications. It asks what another researcher would need to repeat an experiment accurately, and why that information should be written down before the investigator becomes famous for it. Slides and recordings are not available.

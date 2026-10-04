@@ -8,6 +8,12 @@ tags:
 - Bioelectricity
 - Regeneration
 - Computational modelling
+image:
+  filename: featured.png
+  alt_text: Covered laboratory table surrounded by blue vapour.
+  focal_point: Center
+  placement: 1
+  preview_only: false
 ---
 
 **Status:** Ongoing postdoctoral project
