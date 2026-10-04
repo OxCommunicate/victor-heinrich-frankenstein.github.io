@@ -64,20 +64,20 @@
           {{ else }}
             {{ $original_image = .Fit (printf "800x450 %s" $anchor) }}
           {{ end }}
-          {{ $responsive := partial "functions/process_responsive_image.html" (dict 
-              "image" $original_image 
+          {{ $responsive := partial "functions/process_responsive_image.html" (dict
+              "image" $original_image
               "mode" "responsive"
               "sizes" (slice 400 600 800)
               "formats" (slice "avif" "webp" "jpg")
           ) }}
           <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="block">
-            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 {{ if $fill_image }}object-fill{{ else }}object-contain{{ end }}" 
+            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 {{ if $fill_image }}object-fill{{ else }}object-contain{{ end }}"
                  srcset="{{ $responsive.srcset }}"
                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                 src="{{ $responsive.fallback.RelPermalink }}" 
-                 width="{{ $original_image.Width }}" 
+                 src="{{ $responsive.fallback.RelPermalink }}"
+                 width="{{ $original_image.Width }}"
                  height="{{ $original_image.Height }}"
-                 loading="lazy" 
+                 loading="lazy"
                  decoding="async"
                  {{ if eq $index 0 }}fetchpriority="high"{{ end }}
                  style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
@@ -96,7 +96,7 @@
           </div>
         </a>
       {{end}}
-      
+
       <!-- Subtle overlay for better text contrast (allow clicks to pass through) -->
       <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
     </div>
@@ -138,7 +138,7 @@
           {{ end }}
         </a>
       </h3>
-      
+
       <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
         {{ (partial "functions/get_summary" $item) | plainify | htmlUnescape | truncate 180 }}
       </p>
@@ -200,7 +200,7 @@
             <span class="hidden sm:inline whitespace-nowrap">{{ $readTime }} {{ i18n "minute_read" }}</span>
           {{ end }}
         </div>
-        
+
         <!-- Read More with arrow - properly separated -->
         {{ if $showReadMore }}
         <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
@@ -214,7 +214,7 @@
         {{ end }}
       </div>
       {{ end }}
-      
+
       <!-- Optional AI metadata -->
       {{ if $item.Params.ai_insights }}
         <div class="flex items-center gap-2 pt-2 text-xs text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-950/30 rounded-lg px-3 py-2">
